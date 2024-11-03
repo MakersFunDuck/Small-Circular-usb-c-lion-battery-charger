@@ -1,0 +1,209 @@
+(footprint "USB-TYPE-C-SMD_MC-306LS-H65"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.39 0)
+		(layer "F.SilkS")
+		(uuid "2027bfff-607b-45a8-ae95-fd1145265a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB-TYPE-C-SMD_MC-306LS-H65"
+		(at 0 4.39 0)
+		(layer "F.Fab")
+		(uuid "b6520a07-f530-4830-b1e5-117192dbd17c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "316a9b36-9df2-488b-9b67-5e15419f2f7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80e59029-b7a5-4164-abbf-238faaba594b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52a3346a-58e3-4a9a-93ba-ae6011f89cd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.47 -0.89)
+		(end -3.33 -0.89)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6da99d30-8660-425b-b36b-2d2d68378161")
+	)
+	(fp_line
+		(start -4.47 -0.73)
+		(end -4.47 -0.89)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "021beeba-81f0-4e78-9896-0f07085b7092")
+	)
+	(fp_line
+		(start -4.47 2.27)
+		(end -4.47 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2c5ae64-7677-4cc1-88db-055b30804fa7")
+	)
+	(fp_line
+		(start 3.33 -0.89)
+		(end 4.47 -0.89)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f057857-0a4d-42eb-bf17-998c62744086")
+	)
+	(fp_line
+		(start 4.47 -0.89)
+		(end 4.47 -0.73)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a52aec3c-6212-4c82-aac1-fd99afa4ee6c")
+	)
+	(fp_line
+		(start 4.47 1.5)
+		(end 4.47 2.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bfbc396-de4d-450d-b117-9ec38572c90f")
+	)
+	(fp_line
+		(start 4.47 2.27)
+		(end -4.47 2.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb0d215b-0c20-4cb0-ae23-4796cde1e0bc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2908e490-a5b8-4103-a1ec-15d4769c07c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.32 0.39)
+		(size 1 1.7)
+		(drill oval 0.500024 1.299997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02b014d3-66cb-43ff-bf1b-0f77dcf7f339")
+	)
+	(pad "2" thru_hole oval
+		(at 4.32 0.39)
+		(size 1 1.7)
+		(drill oval 0.500024 1.299997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "884811dd-c38a-4803-a84f-e903e4aa3d0b")
+	)
+	(pad "A5" smd rect
+		(at -0.5 -0.39)
+		(size 0.7 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e48ec7a3-cbca-4608-9eaa-57082cab1bd0")
+	)
+	(pad "A9" smd rect
+		(at 1.5 -0.39)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a3d25061-00fd-46f1-8762-56710ab7fb34")
+	)
+	(pad "A12" smd rect
+		(at 2.7 -0.39)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2ac80a00-531c-48b0-b12f-91731d0c18ef")
+	)
+	(pad "B5" smd rect
+		(at 0.5 -0.39)
+		(size 0.7 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3c26f1d-6acf-4aab-a4b1-d87dd883b7f7")
+	)
+	(pad "B9" smd rect
+		(at -1.5 -0.39)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "22d1de2d-749d-4e64-9b29-75591bc2efcf")
+	)
+	(pad "B12" smd rect
+		(at -2.7 -0.39)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e035b733-591b-40ff-a542-689c8bd0fbc8")
+	)
+	(model "C:/Users/monte/Documents/KiCad/small-usb-c-charger-circular/charger.3dshapes/USB-TYPE-C-SMD_MC-306LS-H65.wrl"
+		(offset
+			(xyz 0 -0.62 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
